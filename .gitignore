@@ -1,0 +1,71 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Android
+*.apk
+*.ap_
+*.aab
+*.dex
+local.properties
+.idea/
+.DS_Store
+/captures
+*.iml
+
+# LibGDX
+## Java
+hs_err_pid*
+target/
+
+## GWT
+war/
+html/war/gwt_bree/
+.apt_generated/
+html/war/WEB-INF/deploy/
+html/war/WEB-INF/classes/
+.gwt/
+gwt-unitCache/
+www-test/
+.gwt-tmp/
+
+## Android Studio and Intellij and Android in general
+android/libs/armeabi-v7a/
+android/libs/arm64-v8a/
+android/libs/x86/
+android/libs/x86_64/
+android/gen/
+out/
+com_crashlytics_export_strings.xml
+
+## Eclipse
+.classpath
+.project
+.metadata
+**/bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+
+## NetBeans
+**/nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+## OS Specific
+.DS_Store
+Thumbs.db
+
+## Misc
+*~
+.directory
