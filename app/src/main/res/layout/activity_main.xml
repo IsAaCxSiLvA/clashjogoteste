@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a1a2e"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header com Título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚔️ CLASH GAME ⚔️"
+            android:textSize="32sp"
+            android:textColor="#FFD700"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+        <!-- Recursos -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#16213e"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                
+                <TextView
+                    android:id="@+id/goldText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="💰 Ouro: 1000"
+                    android:textSize="18sp"
+                    android:textColor="#FFD700"
+                    android:textStyle="bold"/>
+                    
+                <TextView
+                    android:id="@+id/elixirText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚗️ Elixir: 500"
+                    android:textSize="18sp"
+                    android:textColor="#DA70D6"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                
+                <TextView
+                    android:id="@+id/gemsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="💎 Gemas: 50"
+                    android:textSize="18sp"
+                    android:textColor="#00CED1"
+                    android:textStyle="bold"/>
+                    
+                <TextView
+                    android:id="@+id/levelText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⭐ Nível: 1"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Construções -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏗️ CONSTRUÇÕES"
+            android:textSize="24sp"
+            android:textColor="#FFD700"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#16213e"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/townHallText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🏰 Centro da Vila: Nv 1"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/buildTownHallBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⬆️ MELHORAR CENTRO"
+                android:textSize="16sp"
+                android:backgroundTint="#0f3460"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/barracksText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⚔️ Quartéis: 0"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/buildBarracksBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🔨 CONSTRUIR QUARTEL (500 ouro)"
+                android:textSize="16sp"
+                android:backgroundTint="#0f3460"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/cannonsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🎯 Canhões: 0"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/buildCannonBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🎯 CONSTRUIR CANHÃO (800 ouro)"
+                android:textSize="16sp"
+                android:backgroundTint="#0f3460"/>
+        </LinearLayout>
+
+        <!-- Ações -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚡ AÇÕES"
+            android:textSize="24sp"
+            android:textColor="#FFD700"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#16213e"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/collectGoldBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="💰 COLETAR OURO"
+                android:textSize="18sp"
+                android:backgroundTint="#e94560"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/trainTroopsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🗡️ TREINAR TROPAS (50 elixir)"
+                android:textSize="18sp"
+                android:backgroundTint="#e94560"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/attackBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⚔️ ATACAR!"
+                android:textSize="22sp"
+                android:backgroundTint="#ff4757"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
