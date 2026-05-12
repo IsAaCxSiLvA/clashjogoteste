@@ -123,11 +123,24 @@ clashjogoteste/
 
 Projeto livre para uso educacional.
 
-## 👨‍💻 Desenvolvedor
+---
 
-IsAaC Silva
+# 👨‍💻 Créditos
+
+<div align="center">
+
+Projeto desenvolvido por **Snepdog** ⚡
+
+💻 Full Stack Developer  
+🎮 SA-MP Developer  
+🛡️ Cybersecurity Enthusiast  
+
+</div>
 
 ---
 
-⚔️ Bom jogo! Construa, ataque e conquiste! ⚔️
-Instruções serão adicionadas em breve.
+<div align="center">
+
+⭐ Caso goste do projeto, deixe uma estrela no repositório.
+
+</div>
